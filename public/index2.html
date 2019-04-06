@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Gallery</title>
+</head>
+
+<body align="center">
+    <!--  Main Menu -->
+
+    <div align="center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="">MENU</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index2.html">GALLERY </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index3.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index2.html">GALLERY </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+
+        <br>
+        <!-- My details Block1 -->
+        <table class="fform">
+
+            <tr class="textformtable">
+                <th class="textformtable2">
+                    <h1>Kritsana Manupha</h1>
+                    <h2>Web Developer</h2>
+                    <a href="mailto:kritsana.mnp@gmail.com" class="maillink">kritsana.mnp@gmail.com</a>
+                    <h3>(+66) - 801-214056</h3>
+                </th>
+                <th class="textformtable2">
+                </th>
+                <th class="textformtable2">
+                    <img src="media/myprofile1.jpg" height="340" width="250" align="right"></img>
+                </th>
+            </tr>
+        </table>
+
+
+        <br>
+        <!-- Gallery Block -->
+        <h1><big><img
+                    src="data:image/png;base64,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"
+                    alt="" height="50px" width="50px">Gallery</big></h1>
+
+        <span class="badge badge-dark">This gallery comes from my hobbies and my work</span>
+        <br><br>
+
+        <table class="patterngallery">
+            <tr class="patterngalleryin">
+                <td>
+                    <div class="card mb-3">
+                        <h3 class="card-header">FLOWER</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">MY GEAR</h5>
+                            <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                        </div>
+                        <img class="gallerystyle" src="media/IMG_6849.jpg" alt="Card image">
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">LENS 50 mm</li>
+                            <li class="list-group-item">MACRO</li>
+
+                            <div class="card-footer text-muted">
+                                2 days ago
+                            </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="card mb-3">
+                        <h3 class="card-header">graduation</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">MY GEAR</h5>
+                            <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                        </div>
+                        <img class="gallerystyle" src="media/IMG_8130.jpg" alt="Card image">
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">LENS 50 mm</li>
+                            <li class="list-group-item">PORTRAIT</li>
+                        </ul>
+
+                        <div class="card-footer text-muted">
+                            2 days ago
+                        </div>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="card mb-3">
+                        <h3 class="card-header">graduation</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">MY GEAR</h5>
+                            <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                        </div>
+                        <img class="gallerystyle" src="media/IMG_8380.jpg" alt="Card image">
+                    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">LENS 50 mm</li>
+                        <li class="list-group-item">PORTRAIT</li>
+                    </ul>
+
+                    <div class="card-footer text-muted">
+                        4 days ago
+                    </div>
+    </div>
+    </td>
+    <td>
+        <div class="card mb-3">
+            <h3 class="card-header">STAR SKY</h3>
+            <div class="card-body">
+                <h5 class="card-title">MY GEAR</h5>
+                <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+            </div>
+            <img class="gallerystyle" src="media/IMG_2326.jpg" alt="Card image">
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">LENS 18 - 55 mm</li>
+                <li class="list-group-item">WIDE</li>
+            </ul>
+
+            <div class="card-footer text-muted">
+                7 days ago
+            </div>
+        </div>
+
+    </td>
+    </tr>
+    <tr class="patterngalleryin">
+        <td>
+            <div class="card mb-3">
+                <h3 class="card-header">WORKSHOP</h3>
+                <div class="card-body">
+                    <h5 class="card-title">MY GEAR</h5>
+                    <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                </div>
+                <img class="gallerystyle" src="media/IMG_1062.jpg" alt="Card image">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">LENS 50 mm</li>
+                    <li class="list-group-item">PORTRAIT</li>
+
+                    <div class="card-footer text-muted">
+                        12 days ago
+                    </div>
+            </div>
+
+        </td>
+        <td>
+            <div class="card mb-3">
+                <h3 class="card-header">ACTIVITIES</h3>
+                <div class="card-body">
+                    <h5 class="card-title">MY GEAR</h5>
+                    <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                </div>
+                <img class="gallerystyle" src="media/HMG_9978.jpg" alt="Card image">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">LENS 50 mm</li>
+                    <li class="list-group-item">AT FACULTY</li>
+                </ul>
+
+                <div class="card-footer text-muted">
+                    15 days ago
+                </div>
+            </div>
+
+        </td>
+        <td>
+            <div class="card mb-3">
+                <h3 class="card-header">ACTIVITIES</h3>
+                <div class="card-body">
+                    <h5 class="card-title">MY GEAR</h5>
+                    <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                </div>
+                <img class="gallerystyle" src="media/IMG_4916.jpg" alt="Card image">
+            
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">LENS 24 - 70 mm</li>
+                <li class="list-group-item">TREKKING</li>
+            </ul>
+
+            <div class="card-footer text-muted">
+                17 days ago
+            </div>
+            </div>
+
+        </td>
+        <td>
+            <div class="card mb-3">
+                <h3 class="card-header">TRAVEL</h3>
+                <div class="card-body">
+                    <h5 class="card-title">MY GEAR</h5>
+                    <h6 class="card-subtitle text-muted">CANON 70 D</h6>
+                </div>
+                <img class="gallerystyle" src="media/IMG_2688-Edit.jpg" alt="Card image">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">LENS 18 - 55 mm</li>
+                    <li class="list-group-item">DOI SUTHEP</li>
+                </ul>
+
+                <div class="card-footer text-muted">
+                    28 days ago
+                </div>
+            </div>
+
+        </td>
+    </tr>
+    </table>
+
+    <br>
+    <br>
+    </p>
+
+</body>
+
+</html>
